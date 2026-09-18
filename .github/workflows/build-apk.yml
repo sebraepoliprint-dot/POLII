@@ -31,7 +31,7 @@ jobs:
           packager: npm
 
       - name: Install dependencies
-        run: pnpm install --ignore-scripts
+        run: pnpm install --ignore-scripts --no-frozen-lockfile
 
       - name: Run EAS build
         run: eas build --platform android --profile preview --non-interactive
