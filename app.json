@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "PoliPrint",
+    "slug": "workspace",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "android": {
+      "package": "com.sebrae.poliprint"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a2ae45e4-464e-4133-af73-d684b6f9d683"
+      }
+    }
+  }
+}
